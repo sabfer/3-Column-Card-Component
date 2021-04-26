@@ -28,14 +28,14 @@ body {
 }
 
 .card {
+  min-height: 420px;
   padding: 4rem 3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .card-title {
-  margin: 2.4rem 0;
-  font-size: 2.6rem;
+  font-size: 4rem;
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
   color: #FFF;
@@ -46,7 +46,6 @@ body {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
   line-height: 3rem;
-  margin: 2.4rem 0;
 }
 .card .btn {
   width: 60%;
@@ -116,11 +115,17 @@ body {
     flex-direction: row;
   }
 
+  .card {
+    min-height: 480px;
+  }
+  .card-title {
+    font-size: 3rem;
+  }
   .card .btn {
     width: 80%;
   }
   .card img {
-    width: 35%;
+    width: 45%;
   }
 
   .sedans {
@@ -133,31 +138,27 @@ body {
 }
 @media (min-width: 1023px) {
   .card {
-    padding: 5rem;
-  }
-  .card-title {
-    font-size: 3.6rem;
-  }
-  .card-description {
-    font-size: 1.8rem;
+    padding: 4rem;
   }
   .card .btn {
     margin-top: 5rem;
   }
+  .card-description {
+    margin-top: 2rem;
+  }
+  .card img {
+    margin-bottom: 2rem;
+  }
 }
 @media (min-width: 1439px) {
   .container {
-    width: 60%;
+    width: 70%;
   }
 
-  .card-title {
-    margin: 3.2rem 0;
-  }
   .card-description {
-    margin: 0 0 3.2rem;
+    margin-top: 2rem;
   }
   .card .btn {
-    margin-top: 7rem;
     width: 60%;
     font-size: 1.8rem;
   }
