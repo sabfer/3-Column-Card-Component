@@ -123,6 +123,8 @@ body {
   }
   .card .btn {
     width: 80%;
+    text-align: center;
+    text-decoration: none;
   }
   .card img {
     width: 40%;
