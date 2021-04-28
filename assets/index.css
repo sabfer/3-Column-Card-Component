@@ -55,6 +55,8 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 3rem;
   outline: none;
+  text-align: center;
+  text-decoration: none;
 }
 .card .btn:hover {
   transition: 400ms;
@@ -123,8 +125,6 @@ body {
   }
   .card .btn {
     width: 80%;
-    text-align: center;
-    text-decoration: none;
   }
   .card img {
     width: 40%;
